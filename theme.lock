@@ -30,19 +30,19 @@ assets/respond-proxy.html:
 assets/respond.min.js:
   development: 2017-10-24T18:20:38-04:00   a2684e9b8fa50d6d11c56a9ada068528
 assets/theme.js.liquid:
-  development: 2017-10-24T18:20:38-04:00   cf9e618dfc554d6b639a60d6919ec60a
+  development: 2017-11-02T18:43:20-04:00   d2d822df3b11ccb26c2df383a9193fda
 assets/theme.scss.liquid:
-  development: 2017-10-24T18:20:38-04:00   518d05a4b1e99c589648689d95a22dd1
+  development: 2017-10-25T18:33:02-04:00   ed79602b994ba984859a00a3e52f2df1
 assets/timber.scss.liquid:
   development: 2017-10-24T18:20:38-04:00   0e193a26c1c1d44e7e2205c6c1e51ee2
 config/settings_data.json:
-  development: 2017-10-24T18:20:41-04:00   b8609014493ab47af09765abc215b555
+  development: 2017-10-24T18:43:18-04:00   397e0725ab7dedea16e7e0a0f6eef700
 config/settings_schema.json:
   development: 2017-10-24T18:20:38-04:00   0ce96641039702636ecc5c55f715d31d
 layout/password.liquid:
   development: 2017-10-24T18:20:39-04:00   9b89c14723c926030fcbfc57bb72fc52
 layout/theme.liquid:
-  development: 2017-10-24T18:20:39-04:00   1b21be4db5ed03b3812e31f6d10b1ccb
+  development: 2017-11-02T19:11:04-04:00   7b7d5bac9ce0454cc587e07e26afab9f
 locales/de.json:
   development: 2017-10-24T18:20:41-04:00   0f341ef7af2a070a1164765daf4c9387
 locales/en.default.json:
@@ -80,11 +80,11 @@ sections/featured-products.liquid:
 sections/featured-row.liquid:
   development: 2017-10-24T18:20:36-04:00   fb9a3596588cd8472aeb370d2ecef85f
 sections/featured-video.liquid:
-  development: 2017-10-24T18:20:36-04:00   27c4bd55d80c6e12b2608e5c42d59bd0
+  development: 2017-10-25T18:32:34-04:00   4077e71b9fe0ad415ce32362351e60c8
 sections/footer.liquid:
   development: 2017-10-24T18:20:36-04:00   09c4cbb15a45a2bb33e70183149c4b60
 sections/header.liquid:
-  development: 2017-10-24T18:20:36-04:00   0d0eb9d741aa327cacfd46b9579488ec
+  development: 2017-11-02T19:20:53-04:00   54f7df24cc27e8bda3e71022f7f9e39b
 sections/list-collections-template.liquid:
   development: 2017-10-24T18:20:36-04:00   cc519f30f6bced273d6c82201bb79c40
 sections/map.liquid:
