@@ -106,8 +106,9 @@
   <div id="PageContainer" class="page-container">
 
     {% section 'header' %}
-    {% section 'featured-video' %}
-    
+    {% comment %}
+      {% section 'featured-video' %}
+    {% endcomment %}
 
     <main class="main-content" role="main">
       {% unless template.name == "index" or template == "collection.image" %}

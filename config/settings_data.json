@@ -74,9 +74,9 @@
               "image": "",
               "color_image_overlay": "#3d4246",
               "image_overlay_opacity": 25,
-              "slide_subheading": "An introductory",
-              "slide_heading": "Hero Banner",
-              "slide_cta": "Shop now",
+              "slide_subheading": "",
+              "slide_heading": "",
+              "slide_cta": "",
               "slide_link": ""
             }
           }
@@ -92,16 +92,9 @@
           "slide_button_background_color": "#ffffff"
         }
       },
-      "featured-products": {
-        "type": "featured-products",
-        "settings": {
-          "title": "Featured collection",
-          "home_featured_products": "frontpage",
-          "collection_products_grid": "collage"
-        }
-      },
       "newsletter": {
         "type": "newsletter",
+        "disabled": true,
         "settings": {
           "heading": "Subscribe to our newsletter",
           "subheading": "A short sentence describing what someone will receive by subscribing"
@@ -119,7 +112,7 @@
         "type": "header",
         "settings": {
           "main_menu_link_list": "awp-header-menu",
-          "logo": "",
+          "logo": "shopify:\/\/shop_images\/17_HH_Logo_Color-01_1.png",
           "logo-inverted": "",
           "logo_max_width": "260",
           "search": "none",
@@ -145,26 +138,15 @@
           "product_vendor_enable": false
         }
       },
-      "1494860348200": {
-        "type": "featured-row",
-        "settings": {
-          "image": "",
-          "layout": "right",
-          "title": "Image with text",
-          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-          "button_label": "",
-          "button_link": ""
-        }
-      },
       "1494894035034": {
         "type": "featured-row",
         "settings": {
-          "image": "",
+          "image": "shopify:\/\/shop_images\/home_bb_block.jpg",
           "layout": "left",
-          "title": "Image with text",
-          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-          "button_label": "",
-          "button_link": ""
+          "title": "Fat, Fiber & Protein",
+          "text": "<p>BLENDER BOMBS HAVE THE PERFET BALANCE OF MACRO AND MICRONUTRIENTS. THROW AWAY THE PROTEIN POWDERS, AND SAY HELLO TO ALL NATURAL, PLANT POWERED BLENDER BOMbs<\/p>",
+          "button_label": "Shop Blender Bombs",
+          "button_link": "shopify:\/\/collections\/all"
         }
       },
       "product-template": {
@@ -177,48 +159,39 @@
           "product_selector": "radio"
         }
       },
-      "1496078102297": {
-        "type": "advanced-content",
-        "blocks": {
-          "1496078102297-0": {
-            "type": "html",
-            "settings": {
-              "code": "<div style=\"text-align:center;\">\n<h1 class=\"h1\">Use HTML to format your text so it can be easily read.<\/h1>This text can be used to share information about your brand with customers.<\/div>",
-              "width": "100%",
-              "alignment": "top-middle"
-            }
-          }
-        },
-        "block_order": [
-          "1496078102297-0"
-        ],
-        "settings": {}
+      "featured-video": {
+        "type": "featured-video",
+        "settings": {
+          "heading": "",
+          "video_url": "https:\/\/vimeo.com\/225591810"
+        }
       },
-      "1496177901425": {
-        "type": "advanced-content",
-        "blocks": {
-          "1496177901425-0": {
-            "type": "html",
-            "settings": {
-              "code": "<div style=\"width:745px;text-align: center; margin: 0 auto;\">This text can be used to share information about your brand with customers.<\/div>",
-              "width": "100%",
-              "alignment": "top-middle"
-            }
-          }
-        },
-        "block_order": [
-          "1496177901425-0"
-        ],
-        "settings": {}
+      "1510017680050": {
+        "type": "featured-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/home_handbook_block.jpg",
+          "layout": "right",
+          "title": "HEALTH FOR LIFE",
+          "text": "<p>SICK OF TRENDY DIETS AND READY TO MAKE A LIFESTYLE CHANGE? JOIN H+H HANDBOOK PROGRAM. This journey will not overwhelm you, it will empower and educate you TO BE YOUR BEST SELF.<\/p>",
+          "button_label": "The H+H Handbook",
+          "button_link": "shopify:\/\/collections\/all"
+        }
+      },
+      "1510017761550": {
+        "type": "featured-content",
+        "settings": {
+          "home_page_full_width": true,
+          "section_title": "Less Confusion, More Smoothies",
+          "text": "<p>I&rsquo;ve made it MY mission to stop food&nbsp;confusion in its tracks. My&nbsp;Blender Bombs are made with&nbsp;whole&nbsp;ingredients that&nbsp;take&nbsp;the&nbsp;confusion out of SUPER FOODS IN your&nbsp;DIET. WITH THE PERFECT BLEND OF PROTEIN, FIBER, AND HEALTHY FAT THEY, WILL HELP YOU ACHIEVE ANY HEALTH GOALS YOU HAVE.&nbsp;<\/p>\n<p><a href=\"\/collections\/all\" title=\"All Products\">Shop Blender Bombs<\/a><\/p>",
+          "text_size": "medium"
+        }
       }
     },
     "content_for_index": [
-      "1496177901425",
-      "featured-products",
+      "1510017761550",
       "newsletter",
-      "1496078102297",
-      "1494860348200",
-      "1494894035034"
+      "1494894035034",
+      "1510017680050"
     ]
   },
   "presets": {
