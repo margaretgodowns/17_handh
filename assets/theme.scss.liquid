@@ -4053,27 +4053,70 @@ button.mfp-arrow {
 
 
 /*AWP Custom Styles*/
-#shopify-section-featured-video {
-  margin-top: -80px;
+.main-content {
+  padding-top: 0;
+}
+
+.site-header {
+  padding: 0;
+  background-color: #fff;
 }
 
 .material-icons {
   position: relative;
-  top: 3px;
+  top: 4px;
 }
 
+.cart-link__bubble--visible {
+  top: 20px;
+}
+
+.site-nav {
+  font-family: "proxima-nova",sans-serif;
+}
+
+.site-footer__linklist li,
+.social-icons li {
+  display: inline;
+}
+
+.site-nav__link {
+  color: #2e2e2e;
+}
+
+/*Video*/
+#shopify-section-featured-video {
+  margin-top: -80px;
+}
+
+/*Rich Text Sections*/
 .rich-text-section {
   color: #fff;
   background-color: #154188;
   text-transform: uppercase;
   padding: 5% 0;
+  .section-header .section-header__title {
+    color: #fff;
+  }
+  .section-header .section-header__title:before {
+    display: block;
+    content: "";
+    border-top: 4px solid white;
+    width: 75px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-bottom: 15px;
+  }
 }
 
-.rich-text-section {
-  h1,
-  a {
-    color: black;
-  }
+.rte p {
+  font-family: "proxima-nova", sans-serif;
+  letter-spacing: .05em;
+}
+
+.section-header .section-header__title {
+  font-family: "minerva-modern", sans-serif;
+  text-transform: uppercase;
 }
 
 /*Featured Rows - Home Page*/
@@ -4081,7 +4124,4 @@ button.mfp-arrow {
   margin-top: 0;
 }
 
-.site-footer__linklist li,
-.social-icons li {
-  display: inline;
-}
+/*Full Width Text Section*/

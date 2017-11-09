@@ -32,7 +32,7 @@ assets/respond.min.js:
 assets/theme.js.liquid:
   development: 2017-11-02T18:43:20-04:00   d2d822df3b11ccb26c2df383a9193fda
 assets/theme.scss.liquid:
-  development: 2017-11-08T20:24:26-05:00   692e87de549df235307a6f8906e09121
+  development: 2017-11-08T21:40:27-05:00   533a9966ee09552f0887c8799b86e43a
 assets/timber.scss.liquid:
   development: 2017-10-24T18:20:38-04:00   0e193a26c1c1d44e7e2205c6c1e51ee2
 config/settings_data.json:
@@ -42,7 +42,7 @@ config/settings_schema.json:
 layout/password.liquid:
   development: 2017-10-24T18:20:39-04:00   9b89c14723c926030fcbfc57bb72fc52
 layout/theme.liquid:
-  development: 2017-11-02T20:09:47-04:00   2f4048a687d6a54749c903d4f28544db
+  development: 2017-11-08T20:51:55-05:00   99d597a0072e144a0628170310a3b771
 locales/de.json:
   development: 2017-10-24T18:20:41-04:00   0f341ef7af2a070a1164765daf4c9387
 locales/en.default.json:

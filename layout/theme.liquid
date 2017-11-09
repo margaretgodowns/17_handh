@@ -55,6 +55,12 @@
     };
   </script>
 
+  {% comment %}
+    TypeKit
+  {% endcomment %}
+  <script src="https://use.typekit.net/rek6yrg.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
   {{ '//ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js' | script_tag }}
 
   <!--[if (gt IE 9)|!(IE)]><!--><script src="{{ 'lazysizes.min.js' | asset_url }}" async="async"></script><!--<![endif]-->
@@ -106,9 +112,8 @@
   <div id="PageContainer" class="page-container">
 
     {% section 'header' %}
-    {% comment %}
-      {% section 'featured-video' %}
-    {% endcomment %}
+    {% section 'featured-video' %}
+    
 
     <main class="main-content" role="main">
       {% unless template.name == "index" or template == "collection.image" %}
