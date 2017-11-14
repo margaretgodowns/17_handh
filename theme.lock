@@ -32,7 +32,7 @@ assets/respond.min.js:
 assets/theme.js.liquid:
   development: 2017-11-02T18:43:20-04:00   d2d822df3b11ccb26c2df383a9193fda
 assets/theme.scss.liquid:
-  development: 2017-11-13T19:13:51-05:00   3edc4978698428f5f6e8dd8a3e116c4a
+  development: 2017-11-13T20:25:07-05:00   8cf4cb61b1b8afab9337fe252b7b8fed
 assets/timber.scss.liquid:
   development: 2017-10-24T18:20:38-04:00   0e193a26c1c1d44e7e2205c6c1e51ee2
 config/settings_data.json:

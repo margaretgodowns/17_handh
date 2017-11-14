@@ -4056,6 +4056,8 @@ button.mfp-arrow {
 /*VARIABLES*/
 $awpDarkGray: #2e2e2e;
 $awpBlue: #154188;
+$awpTeal: #65bebb;
+$awpPink: #f2a49d;
 $awpProxima: "proxima-nova", sans-serif;
 $awpMinerva: "minerva-modern", sans-serif;
 
@@ -4114,6 +4116,12 @@ $awpMinerva: "minerva-modern", sans-serif;
     margin: 0 auto;
     padding-bottom: 15px;
   }
+  .text-center {
+    padding: 35px;
+    @include at-query($min, $medium) {
+      padding: 15px;
+    } 
+  }
 }
 
 .rte p {
@@ -4124,11 +4132,6 @@ $awpMinerva: "minerva-modern", sans-serif;
 .section-header .section-header__title {
   font-family: $awpMinerva;
   text-transform: uppercase;
-}
-
-/*Featured Rows - Home Page*/
-.index-sections .shopify-section {
-  margin-top: 0;
 }
 
 /*Full Width Text Section*/
@@ -4177,15 +4180,61 @@ $awpMinerva: "minerva-modern", sans-serif;
   }
 }
 
+/*Featured Rows - Home Page*/
+.index-sections .shopify-section {
+  margin-top: 0;
+}
+
 .template-index .section__image-with-text {
   max-width: 2000px;
   padding: 0;
+  color: #fff;
   .h3 {
     font-family: $awpMinerva;
     font-size: 2.23529em;
     text-transform: uppercase;
+    color: #fff;
   }
   .featured-row__subtext {
     font-family: $awpProxima;
+    text-transform: uppercase;
+  }
+  .feature-row__text {
+    padding: 35px;
+    text-align: center;
+    @include at-query($min, $medium) {
+      padding: 15px;
+    }
+  }
+  .btn {
+    border-color: #fff;
+    color: #fff;
+    @include transition(background-color 0.4s ease-out);
+    &:hover {
+      @include transition(background-color 0.15s ease-out);
+      color: $awpDarkGray;
+    }
+  }
+}
+
+/*First Image/Text Row*/ 
+#shopify-section-1494894035034 {
+  background-color: $awpTeal;
+  .btn {
+    background-color: $awpTeal;
+    &:hover {
+      background-color: #fff;
+    }
+  }
+}
+
+/*Second Image/Text Row*/
+#shopify-section-1510017680050 {
+  background-color: $awpPink;
+  .btn {
+    background-color: $awpPink;
+    &:hover {
+      background-color: #fff;
+    }
   }
 }
