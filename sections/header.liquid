@@ -199,18 +199,7 @@
 
                 {% if shop.customer_accounts_enabled %}
                   <li class="site-nav__item site-nav__expanded-item">
-                    <a class="site-nav__link site-nav__link--icon" href="/account">
-                      <span class="icon-fallback-text">
-                        <span class="icon icon-customer" aria-hidden="true"></span>
-                        <span class="fallback-text">
-                          {% if customer %}
-                            {{ 'layout.customer.account' | t }}
-                          {% else %}
-                            {{ 'layout.customer.log_in' | t }}
-                          {% endif %}
-                        </span>
-                      </span>
-                    </a>
+                    <a class="site-nav__link site-nav__link--icon" href="/account">Account</a>
                   </li>
                 {% endif %}
 

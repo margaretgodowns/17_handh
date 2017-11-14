@@ -4053,6 +4053,13 @@ button.mfp-arrow {
 
 
 /*AWP Custom Styles*/
+/*VARIABLES*/
+$awpDarkGray: #2e2e2e;
+$awpBlue: #154188;
+$awpProxima: "proxima-nova", sans-serif;
+$awpMinerva: "minerva-modern", sans-serif;
+
+/*BONES*/
 .main-content {
   padding-top: 0;
 }
@@ -4072,7 +4079,7 @@ button.mfp-arrow {
 }
 
 .site-nav {
-  font-family: "proxima-nova",sans-serif;
+  font-family: $awpProxima;
 }
 
 .site-footer__linklist li,
@@ -4081,18 +4088,18 @@ button.mfp-arrow {
 }
 
 .site-nav__link {
-  color: #2e2e2e;
+  color: $awpDarkGray;
 }
 
-/*Video*/
+/*VIDEO*/
 #shopify-section-featured-video {
   margin-top: -80px;
 }
 
-/*Rich Text Sections*/
+/*RICH TEXT*/
 .rich-text-section {
   color: #fff;
-  background-color: #154188;
+  background-color: $awpBlue;
   text-transform: uppercase;
   padding: 5% 0;
   .section-header .section-header__title {
@@ -4110,12 +4117,12 @@ button.mfp-arrow {
 }
 
 .rte p {
-  font-family: "proxima-nova", sans-serif;
+  font-family: $awpProxima;
   letter-spacing: .05em;
 }
 
 .section-header .section-header__title {
-  font-family: "minerva-modern", sans-serif;
+  font-family: $awpMinerva;
   text-transform: uppercase;
 }
 
@@ -4125,3 +4132,60 @@ button.mfp-arrow {
 }
 
 /*Full Width Text Section*/
+/*link as button*/
+.rich-text a {
+  padding: 12px 20px;
+  font-size: em(13px);
+  height: 45px;
+  display: inline-block;
+  margin: 0;
+  width: auto;
+  line-height: 1.42;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  white-space: normal;
+  cursor: pointer;
+  border: 1px solid #fff;
+  border-bottom: 1px solid #fff !important;
+  @include prefix('user-select', 'none');
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: $radius;
+  color: #fff;
+  background-color: $awpBlue;
+  @include transition(background-color 0.4s ease-out);
+
+  &:hover {
+    @include transition(background-color 0.15s ease-out);
+    background-color: #fff;
+    color: $awpBlue;
+  }
+
+  &:active {
+    @include transition(background-color 0.15s ease-out);
+    background-color: $colorBtnPrimaryActive;
+    color: $colorBtnPrimaryText;
+  }
+
+  &[disabled],
+  &.disabled {
+    cursor: default;
+    color: darken($disabledBorder, 27%);
+    background-color: $disabledGrey;
+  }
+}
+
+.template-index .section__image-with-text {
+  max-width: 2000px;
+  padding: 0;
+  .h3 {
+    font-family: $awpMinerva;
+    font-size: 2.23529em;
+    text-transform: uppercase;
+  }
+  .featured-row__subtext {
+    font-family: $awpProxima;
+  }
+}
