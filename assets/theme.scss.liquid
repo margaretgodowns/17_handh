@@ -4063,7 +4063,7 @@ $awpMinerva: "minerva-modern", sans-serif;
 
 /*BONES*/
 .main-content {
-  padding-top: 0;
+  padding: 0;
 }
 
 .site-header {
@@ -4238,3 +4238,42 @@ $awpMinerva: "minerva-modern", sans-serif;
     }
   }
 }
+
+/*Footer*/
+.site-footer {
+  padding: 15px 0;
+  background-image: url(footer-background.png);
+  .site-nav__link {
+    padding: 15px 15px 0 15px;
+    color: #000000;
+  }
+}
+
+.site-nav__copyright {
+  padding-left: 15px;
+  font-size: .8em;
+  color: #000000;
+  text-transform: uppercase;
+  a {
+    color: #000000;
+  }
+}
+
+.social-icons {
+  @include at-query($max, $medium) {
+    text-align: center;
+  } 
+}
+
+.social-icons .site-nav__link {
+  padding: 15px 5px;
+  font-size: 1em;
+}
+
+
+
+/*delete before launch*/
+.shopify-preview-bar__section {
+  display: none !important;
+}
+

@@ -68,14 +68,14 @@
         {% when 2 %}
           {% assign footer_column_width = 'one-half small--one-whole' %}
         {% when 3 %}
-          {% assign footer_column_width = 'one-third small--one-whole' %}
+          {% assign footer_column_width = 'one-half medium--one-whole small--one-whole' %}
         {% when 4 %}
           {% assign footer_column_width = 'large--one-quarter medium--one-half' %}
       {% endcase %}
 
       {% if linklists[section.settings.footer_link_list].links.size > 0 %}
         <div class="grid__item {{ footer_column_width }}">
-          <ul class="no-bullets site-footer__linklist">
+          <ul class="no-bullets site-footer__linklist site-nav">
             {% for link in linklists[section.settings.footer_link_list].links %}
 
       {% comment %}
@@ -88,11 +88,15 @@
           <ul class="no-bullets site-footer__linklist">
       {% endif %}
 
-              <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+              <li class="site-nav__item"><a href="{{ link.url }}" class="site-nav__link">{{ link.title }}</a></li>
 
             {% endfor %}
           </ul>
-          <p>&copy; {{ 'now' | date: '%Y' }} {{ shop.name | link_to: '/' }}</p>
+          <ul class="site-nav">
+            <li class="site-nav__item">
+            <p class="site-nav__copyright">&copy; {{ 'now' | date: '%Y' }} {{ shop.name | link_to: '/' }}</p>
+            </li>
+          </ul>
         </div>
       {% endif %}
 
@@ -103,18 +107,18 @@
       {% endif %}
 
       <div class="grid__item {{ footer_column_width }} {% if num_footer_columns == 1 %}text-center{% else %}large--text-right{% endif %}">
-        <ul class="no-bullets social-icons">
-          {% if settings.social_facebook_link != blank %}
-            <li>
-              <a href="{{ settings.social_facebook_link | escape }}" title="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: 'Facebook' }}">
-                <span class="icon icon-facebook" aria-hidden="true"></span>
+        <ul class="no-bullets social-icons site-nav">
+          {% if settings.social_instagram_link != blank %}
+            <li class="site-nav__item">
+              <a href="{{ settings.social_instagram_link | escape }}" title="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: 'Instagram' }}" class="site-nav__link">
+                <span class="icon icon-instagram" aria-hidden="true"></span>
               </a>
             </li>
           {% endif %}
-          {% if settings.social_instagram_link != blank %}
-            <li>
-              <a href="{{ settings.social_instagram_link | escape }}" title="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: 'Instagram' }}">
-                <span class="icon icon-instagram" aria-hidden="true"></span>
+          {% if settings.social_facebook_link != blank %}
+            <li class="site-nav__item">
+              <a href="{{ settings.social_facebook_link | escape }}" title="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: 'Facebook' }}" class="site-nav__link">
+                <span class="icon icon-facebook" aria-hidden="true"></span>
               </a>
             </li>
           {% endif %}
