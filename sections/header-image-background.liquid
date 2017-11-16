@@ -1,0 +1,19 @@
+<div class="header-image-background" style="background-image: url({{ section.settings.collection-header-image | img_url: '2000', crop: 'top' }})">
+  <div class="wrapper">
+    <h1>Blender Bombs</h1>
+  </div>
+</div>  
+
+  {% schema %}
+  {
+    "name": "Collection Header",
+    "settings": [
+      {
+      	"type": "image_picker",
+        "id": "collection-header-image",
+        "label": "Collection Header Image"
+      }
+    ]
+  }
+{% endschema %}
+
