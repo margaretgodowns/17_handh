@@ -34,7 +34,7 @@ assets/respond.min.js:
 assets/theme.js.liquid:
   development: 2017-11-02T18:43:20-04:00   d2d822df3b11ccb26c2df383a9193fda
 assets/theme.scss.liquid:
-  development: 2017-11-13T20:59:29-05:00   89d2fe929e218c101d59d8e9e66c9126
+  development: 2017-11-15T19:51:42-05:00   ed57817c0ede7e6c3c1bd487ee079d48
 assets/timber.scss.liquid:
   development: 2017-10-24T18:20:38-04:00   0e193a26c1c1d44e7e2205c6c1e51ee2
 config/settings_data.json:
@@ -82,7 +82,7 @@ sections/featured-products.liquid:
 sections/featured-row.liquid:
   development: 2017-11-13T18:48:48-05:00   938cdab2ecac2e97e7d6a18ff2e184f5
 sections/featured-video.liquid:
-  development: 2017-10-25T18:32:34-04:00   4077e71b9fe0ad415ce32362351e60c8
+  development: 2017-11-15T19:54:23-05:00   21a6a758887c233f4b2ca573ca8744c2
 sections/footer.liquid:
   development: 2017-11-13T20:58:53-05:00   a3eb813a6a9b7883ad152b0eb00554f4
 sections/header.liquid:
