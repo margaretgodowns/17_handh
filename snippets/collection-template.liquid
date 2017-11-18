@@ -2,7 +2,7 @@
   Collection template, used on collection.liquid and collection.image.liquid
 {% endcomment %}
 
-{% paginate collection.products by 12 %}
+{% paginate collection.products by 24 %}
 
 <header class="section-header text-center">
 
@@ -103,7 +103,7 @@
   <div class="wrapper">
     <div class="grid-uniform">
       {% assign grid_item_width = 'medium--one-half large--one-third' %}
-      {% for product in collections.awp.products %}
+      {% for product in collections.blender-bombs.products %}
         {% include 'product-grid-item' %}
       {% else %}
         {% if collection.handle == 'all' %}

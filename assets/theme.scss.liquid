@@ -4058,6 +4058,7 @@ $awpDarkGray: #2e2e2e;
 $awpBlue: #154188;
 $awpTeal: #65bebb;
 $awpPink: #f2a49d;
+$awpYellow: yellow;
 $awpProxima: "proxima-nova", sans-serif;
 $awpMinerva: "minerva-modern", sans-serif;
 
@@ -4284,5 +4285,39 @@ $awpMinerva: "minerva-modern", sans-serif;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: .1em;
+  }
+}
+
+.grid-product__meta {
+  position: absolute;
+  bottom: 1px;
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  color: #fff;
+  background-color: $awpPink;
+}
+
+.grid-product:nth-child(4n) {
+  .grid-product__wrapper .grid-product__image-wrapper .grid-product__image-link .grid-product__meta {
+    background-color: $awpBlue;
+  }
+}
+
+.grid-product:nth-child(4n+1) {
+  .grid-product__wrapper .grid-product__image-wrapper .grid-product__image-link .grid-product__meta {
+    background-color: $awpTeal;
+  }
+}
+
+.grid-product:nth-child(4n+2) {
+  .grid-product__wrapper .grid-product__image-wrapper .grid-product__image-link .grid-product__meta {
+    background-color: $awpPink;
+  }
+}
+
+.grid-product:nth-child(4n+3) {
+  .grid-product__wrapper .grid-product__image-wrapper .grid-product__image-link .grid-product__meta {
+    background-color: $awpYellow;
   }
 }

@@ -185,6 +185,12 @@
           "text": "<p>I&rsquo;ve made it MY mission to stop food&nbsp;confusion in its tracks. My&nbsp;Blender Bombs are made with&nbsp;whole&nbsp;ingredients that&nbsp;take&nbsp;the&nbsp;confusion out of SUPER FOODS IN your&nbsp;DIET. WITH THE PERFECT BLEND OF PROTEIN, FIBER, AND HEALTHY FAT THEY, WILL HELP YOU ACHIEVE ANY HEALTH GOALS YOU HAVE.&nbsp;<\/p>\n<p><a href=\"\/collections\/all\" title=\"All Products\">Shop Blender Bombs<\/a><\/p>",
           "text_size": "medium"
         }
+      },
+      "header-image-background": {
+        "type": "header-image-background",
+        "settings": {
+          "collection-header-image": "shopify:\/\/shop_images\/collection-header_132fa51e-1e97-41ec-a6e5-e2a82d63b35a.png"
+        }
       }
     },
     "content_for_index": [

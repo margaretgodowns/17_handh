@@ -34,11 +34,11 @@ assets/respond.min.js:
 assets/theme.js.liquid:
   development: 2017-11-02T18:43:20-04:00   d2d822df3b11ccb26c2df383a9193fda
 assets/theme.scss.liquid:
-  development: 2017-11-15T21:14:08-05:00   7c348299f97493e92f51d1ee18c5cfd5
+  development: 2017-11-17T21:50:35-05:00   e16bfcd0e26761826df199a5ffc331a2
 assets/timber.scss.liquid:
   development: 2017-10-24T18:20:38-04:00   0e193a26c1c1d44e7e2205c6c1e51ee2
 config/settings_data.json:
-  development: 2017-11-08T20:54:23-05:00   c3db8de00a091650639c0e1e009d3112
+  development: 2017-11-15T20:55:11-05:00   0b9fc9a8e0a158d11a7463a17d3594e7
 config/settings_schema.json:
   development: 2017-10-24T18:20:38-04:00   0ce96641039702636ecc5c55f715d31d
 layout/password.liquid:
@@ -114,7 +114,7 @@ snippets/collection-grid-collage.liquid:
 snippets/collection-grid-item.liquid:
   development: 2017-10-24T18:20:39-04:00   ee5beb448997d2a0c6aea228afd4ca9e
 snippets/collection-template.liquid:
-  development: 2017-11-15T21:25:26-05:00   01f0faaa174664eadecea0000953e493
+  development: 2017-11-17T20:49:20-05:00   931ccdae8041460455365a37c4657bee
 snippets/comment.liquid:
   development: 2017-10-24T18:20:39-04:00   490bf7370ece4d0217f9c229aefd5880
 snippets/featured-blog.liquid:
@@ -136,7 +136,7 @@ snippets/pagination.liquid:
 snippets/product-grid-collage.liquid:
   development: 2017-10-24T18:20:39-04:00   4abdc9f608a23b5c0ab9d2581e08a060
 snippets/product-grid-item.liquid:
-  development: 2017-10-24T18:20:39-04:00   967ef748cf9d1dc180bca9987fa017cb
+  development: 2017-11-17T21:28:29-05:00   e0bce76ca6404cb24af0c003920e5917
 snippets/respond.liquid:
   development: 2017-10-24T18:20:39-04:00   ca6abf0635dc2ad8c6bd377f83c79f6b
 snippets/search-bar.liquid:
