@@ -32,9 +32,9 @@ assets/respond-proxy.html:
 assets/respond.min.js:
   development: 2017-10-24T18:20:38-04:00   a2684e9b8fa50d6d11c56a9ada068528
 assets/theme.js.liquid:
-  development: 2017-11-02T18:43:20-04:00   d2d822df3b11ccb26c2df383a9193fda
+  development: 2017-11-18T14:00:44-05:00   d2d822df3b11ccb26c2df383a9193fda
 assets/theme.scss.liquid:
-  development: 2017-11-17T21:50:35-05:00   e16bfcd0e26761826df199a5ffc331a2
+  development: 2017-11-18T14:43:24-05:00   f5b8c5df8b518986520a574c0e590fdc
 assets/timber.scss.liquid:
   development: 2017-10-24T18:20:38-04:00   0e193a26c1c1d44e7e2205c6c1e51ee2
 config/settings_data.json:
@@ -136,7 +136,7 @@ snippets/pagination.liquid:
 snippets/product-grid-collage.liquid:
   development: 2017-10-24T18:20:39-04:00   4abdc9f608a23b5c0ab9d2581e08a060
 snippets/product-grid-item.liquid:
-  development: 2017-11-17T21:28:29-05:00   e0bce76ca6404cb24af0c003920e5917
+  development: 2017-11-18T13:48:41-05:00   c3a9d2dbac7936db0a381049ce52779f
 snippets/respond.liquid:
   development: 2017-10-24T18:20:39-04:00   ca6abf0635dc2ad8c6bd377f83c79f6b
 snippets/search-bar.liquid:
