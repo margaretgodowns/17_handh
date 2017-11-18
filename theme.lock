@@ -34,7 +34,7 @@ assets/respond.min.js:
 assets/theme.js.liquid:
   development: 2017-11-18T14:00:44-05:00   d2d822df3b11ccb26c2df383a9193fda
 assets/theme.scss.liquid:
-  development: 2017-11-18T14:43:24-05:00   f5b8c5df8b518986520a574c0e590fdc
+  development: 2017-11-18T15:26:23-05:00   459cf1e091ab9abe933af70646bbc856
 assets/timber.scss.liquid:
   development: 2017-10-24T18:20:38-04:00   0e193a26c1c1d44e7e2205c6c1e51ee2
 config/settings_data.json:
@@ -85,8 +85,10 @@ sections/featured-video.liquid:
   development: 2017-11-15T19:54:23-05:00   21a6a758887c233f4b2ca573ca8744c2
 sections/footer.liquid:
   development: 2017-11-13T20:58:53-05:00   a3eb813a6a9b7883ad152b0eb00554f4
-sections/header-image-background.liquid:
-  development: 2017-11-15T21:09:48-05:00   edb78a2e8364cb78b403d2e022639f44
+sections/header-image-background-bbs.liquid:
+  development: 2017-11-18T15:58:22-05:00   5000b19423d29855e2af53d16a62a6a6
+sections/header-image-background-hh.liquid:
+  development: 2017-11-18T15:59:06-05:00   e350c3da3afa2074a29134c664904376
 sections/header.liquid:
   development: 2017-11-13T18:18:46-05:00   e304ae9d89b466ee72d4a2087597f834
 sections/list-collections-template.liquid:
@@ -113,8 +115,10 @@ snippets/collection-grid-collage.liquid:
   development: 2017-10-24T18:20:39-04:00   bba8796945ca96e0d0518d046f15d4ce
 snippets/collection-grid-item.liquid:
   development: 2017-10-24T18:20:39-04:00   ee5beb448997d2a0c6aea228afd4ca9e
+snippets/collection-header.liquid:
+  development: 2017-11-18T15:24:42-05:00   b2e57bb1ec87116adf0995bec382a39f
 snippets/collection-template.liquid:
-  development: 2017-11-17T20:49:20-05:00   931ccdae8041460455365a37c4657bee
+  development: 2017-11-18T15:35:27-05:00   833466a58dbc6f60e54836c1f75873f2
 snippets/comment.liquid:
   development: 2017-10-24T18:20:39-04:00   490bf7370ece4d0217f9c229aefd5880
 snippets/featured-blog.liquid:
@@ -160,7 +164,7 @@ templates/cart.liquid:
 templates/collection.image.liquid:
   development: 2017-10-24T18:20:40-04:00   cd9a9b1849d65ca4311d6f793008812f
 templates/collection.liquid:
-  development: 2017-11-15T20:34:00-05:00   31b1bb2e8e90110011c30cdd3e18513e
+  development: 2017-11-18T15:54:48-05:00   c00bf769b16d67065d42bf7f5488eaa8
 templates/customers/account.liquid:
   development: 2017-10-24T18:20:40-04:00   6169bc13701d2a2f4cbe9735b86ab10c
 templates/customers/activate_account.liquid:
