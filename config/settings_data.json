@@ -186,10 +186,18 @@
           "text_size": "medium"
         }
       },
-      "header-image-background": {
-        "type": "header-image-background",
+      "header-image-background-bbs": {
+        "type": "header-image-background-bbs",
         "settings": {
-          "collection-header-image": "shopify:\/\/shop_images\/collection-header_132fa51e-1e97-41ec-a6e5-e2a82d63b35a.png"
+          "collection-header-image-bbs": "shopify:\/\/shop_images\/collection-header_132fa51e-1e97-41ec-a6e5-e2a82d63b35a.png",
+          "collection-header-title-bbs": "Blender Bombs"
+        }
+      },
+      "header-image-background-hh": {
+        "type": "header-image-background-hh",
+        "settings": {
+          "collection-header-image-hh": "shopify:\/\/shop_images\/P6240107.JPG",
+          "collection-header-title-hh": "H+H Handbook"
         }
       }
     },
