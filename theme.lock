@@ -31,10 +31,12 @@ assets/respond-proxy.html:
   development: 2017-10-24T18:20:38-04:00   75002d74a330bff6bf069284da503b4c
 assets/respond.min.js:
   development: 2017-10-24T18:20:38-04:00   a2684e9b8fa50d6d11c56a9ada068528
+assets/row_image_1.png:
+  development: 2017-11-18T18:42:34-05:00   96caccf4e1930363ccbd4d6c933b7e5f
 assets/theme.js.liquid:
   development: 2017-11-18T14:00:44-05:00   d2d822df3b11ccb26c2df383a9193fda
 assets/theme.scss.liquid:
-  development: 2017-11-18T18:18:04-05:00   5bf7047a9c9dcdc71965964412ea464f
+  development: 2017-11-18T18:45:44-05:00   ade14296b46d55bee4e2bb92fe95914b
 assets/timber.scss.liquid:
   development: 2017-10-24T18:20:38-04:00   0e193a26c1c1d44e7e2205c6c1e51ee2
 config/settings_data.json:
@@ -95,6 +97,8 @@ sections/header-image-background-hh.liquid:
   development: 2017-11-18T15:59:06-05:00   e350c3da3afa2074a29134c664904376
 sections/header.liquid:
   development: 2017-11-13T18:18:46-05:00   e304ae9d89b466ee72d4a2087597f834
+sections/image-row.liquid:
+  development: 2017-11-18T18:45:10-05:00   2e0c8f14cf55c1646cbea10ad15c0b16
 sections/list-collections-template.liquid:
   development: 2017-10-24T18:20:36-04:00   cc519f30f6bced273d6c82201bb79c40
 sections/map.liquid:
@@ -190,7 +194,7 @@ templates/index.liquid:
 templates/list-collections.liquid:
   development: 2017-10-24T18:20:40-04:00   eabed71f62563b929b8da83a4aeacbfb
 templates/page.about.liquid:
-  development: 2017-11-18T17:52:13-05:00   cecf07921173807823e268e89a951a34
+  development: 2017-11-18T18:22:46-05:00   d5b9c3066542e738e19dbe3c1928d67a
 templates/page.contact.liquid:
   development: 2017-10-24T18:20:40-04:00   b31a760236911163d10b4a663a76c59d
 templates/page.full-width.liquid:
