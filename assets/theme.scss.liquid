@@ -4059,8 +4059,43 @@ $awpBlue: #154188;
 $awpTeal: #65bebb;
 $awpPink: #f2a49d;
 $awpYellow: #e2a42e;
+$awpLightPink: #fce2e1;
 $awpProxima: "proxima-nova", sans-serif;
 $awpMinerva: "minerva-modern", sans-serif;
+
+
+/*================ Variables, theme settings, and Sass mixins from Timber ================*/
+/*============================================================================
+  #Sass Mixins
+==============================================================================*/
+@mixin aspect-ratio($width, $height) {
+  position: relative;
+  &:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: ($height / $width) * 100%;
+  }
+  > .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+.sixteen-nine {
+  @include aspect-ratio(16, 9);
+}
+
+.one-one {
+  @include aspect-ratio(1, 1);
+}
+
+.two-one {
+  @include aspect-ratio(2, 1);
+}
 
 /*BONES*/
 .main-content {
@@ -4394,4 +4429,35 @@ $awpMinerva: "minerva-modern", sans-serif;
 
 #CollectionSection {
   padding: 40px 0;
+}
+
+// ABOUT PAGE
+#shopify-section-header-image-background-about {
+  .header-image-background {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+#shopify-section-about-featured-content {
+  background-color: $awpLightPink;
+  color: $awpDarkGray;
+  text-transform: none;
+  h2 {
+    color: $awpDarkGray;
+    line-height: 3;
+    text-transform: uppercase;
+    &:before {
+      display: none;
+    }
+    &:after {
+      display: block;
+      content: "";
+      border-top: 4px solid $awpDarkGray;
+      width: 75px;
+      max-width: 100%;
+      margin: 0 auto;
+      padding-top: 15px;
+    }
+  }
 }
