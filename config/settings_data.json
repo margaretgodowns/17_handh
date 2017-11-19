@@ -199,6 +199,36 @@
           "collection-header-image-hh": "shopify:\/\/shop_images\/P6240107.JPG",
           "collection-header-title-hh": "H+H Handbook"
         }
+      },
+      "header-image-background-about": {
+        "type": "header-image-background-about",
+        "settings": {
+          "header-image-background-about": "shopify:\/\/shop_images\/aboutheader.png"
+        }
+      },
+      "about-featured-content": {
+        "type": "about-featured-content",
+        "settings": {
+          "about_page_full_width": true,
+          "about_section_title": "Helen's Story",
+          "about_text": "<p>At the beginning of 2015 I told myself: &ldquo;I want to get back into a body that I am proud of, and I want to start liking vegetables and make eating healthy second nature. I want to not crave chocolate or chips. I want to earn this body and mindset the most efficient way possible, and then when I get there, I want to only have to work out 3 days a week to keep it.&rdquo;<\/p>\n<p>So in 2015 I kept a SUPER detailed health journal. Every food I ate, every exercise I did, every craving I avoided, every book I read, every nutrition fact I learned, every inch I lost. So thus, let me take you on a similar journey. A journey through the Year of H. This journey will not overwhelm you, it will empower and educate you. You know the people on Instagram who have amazing beautiful feeds of all this complex healthy food? That gives me anxiety. Anything that will take me too much time and has more than 5 ingredients is way too much for me to handle. And you know the lengthy exercise plans you pay $100 for? That makes me feel super overwhelmed. I prefer to make progress in baby steps, because the quick fixes simply don&rsquo;t work. If they did work, the whole world would be skinny, healthy, and detoxed by now. With TYOH, you are being given every tool you need- in the scopes of nutritional\/exercise\/mindset\/self care- to help you reach your health and fitness goals, whatever they may be. I&rsquo;m PUMPED to do this with you! Leh-goooo!<\/p>",
+          "about_text_size": "small"
+        }
+      },
+      "image-row": {
+        "type": "image-row",
+        "settings": {
+          "about-image-one": "shopify:\/\/shop_images\/IMG_0465.png",
+          "about-image-two": "shopify:\/\/shop_images\/IMG_0489.png",
+          "about-image-three": "shopify:\/\/shop_images\/row_image_1.png"
+        }
+      },
+      "contact-featured-content": {
+        "type": "contact-featured-content",
+        "settings": {
+          "contact-photo-left": "shopify:\/\/shop_images\/contact-left-image.png",
+          "contact-photo-right": "shopify:\/\/shop_images\/contact-right_image.png"
+        }
       }
     },
     "content_for_index": [

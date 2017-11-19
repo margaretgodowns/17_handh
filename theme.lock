@@ -34,13 +34,13 @@ assets/respond.min.js:
 assets/row_image_1.png:
   development: 2017-11-18T18:42:34-05:00   96caccf4e1930363ccbd4d6c933b7e5f
 assets/theme.js.liquid:
-  development: 2017-11-18T14:00:44-05:00   d2d822df3b11ccb26c2df383a9193fda
+  development: 2017-11-19T17:18:52-05:00   8f6301e777258869942fc0496dcb4de5
 assets/theme.scss.liquid:
   development: 2017-11-19T16:56:20-05:00   8d5a73a0c04bb9a6a176aea15a9cf37a
 assets/timber.scss.liquid:
   development: 2017-10-24T18:20:38-04:00   0e193a26c1c1d44e7e2205c6c1e51ee2
 config/settings_data.json:
-  development: 2017-11-18T15:59:26-05:00   912a26a368328bc81f67ccc0cb81834b
+  development: 2017-11-19T16:03:33-05:00   944c9075c02e6701947d450c30a4006e
 config/settings_schema.json:
   development: 2017-10-24T18:20:38-04:00   0ce96641039702636ecc5c55f715d31d
 layout/password.liquid:
@@ -112,7 +112,7 @@ sections/password-content.liquid:
 sections/password-header.liquid:
   development: 2017-10-24T18:20:36-04:00   5a5416be7d0234eb7a193645a5232357
 sections/product-template.liquid:
-  development: 2017-10-24T18:20:36-04:00   95c4d19d728640510133400f8d92ae87
+  development: 2017-11-19T17:06:16-05:00   95c4d19d728640510133400f8d92ae87
 sections/slideshow.liquid:
   development: 2017-10-24T18:20:36-04:00   51365f23e85456a41f9c809352c917a5
 snippets/ajax-cart-template.liquid:
