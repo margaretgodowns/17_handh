@@ -4060,6 +4060,7 @@ $awpTeal: #65bebb;
 $awpPink: #f2a49d;
 $awpYellow: #e2a42e;
 $awpLightPink: #fce2e1;
+$awpLightBlue: #869ec2;
 $awpProxima: "proxima-nova", sans-serif;
 $awpMinerva: "minerva-modern", sans-serif;
 
@@ -4466,5 +4467,56 @@ $awpMinerva: "minerva-modern", sans-serif;
   .medium--one-third, 
   .large--one-third {
     padding: 10px 5px 0px 5px;
+  }
+}
+
+#shopify-section-contact-featured-content {
+  .grid-uniform .grid__item img {
+    width: 100%;
+  }
+
+  .grid-uniform {
+    display: flex;
+    align-items: center;
+    background-color: $awpBlue;
+    @include at-query($max, $medium) {
+      display: inline-block;
+    }
+  }
+  
+  .section-header {
+    margin-bottom: 0;
+  }
+
+  h1 {
+    font-family: $awpMinerva;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    color: #fff;
+  }
+
+  input,
+  textarea,
+  ::placeholder {
+    font-family: $awpMinerva;
+    text-transform: uppercase;
+    background-color: $awpLightBlue;
+    color: #fff;
+  }
+  
+  .btn {
+    width: 100%;
+    background-color: #fff;
+    color: $awpBlue;
+  }
+
+  .contact-left-image {
+    @include at-query($max, $medium) {
+      display: none;
+    }
+  }
+
+  .form-wrapper {
+    padding: 15px;
   }
 }
