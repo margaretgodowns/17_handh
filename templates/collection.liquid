@@ -6,7 +6,11 @@
 
 {% if collection.handle == 'blender-bombs' %}
   {% section 'header-image-background-bbs' %}
-{% else %}
+{% endif %}  
+{% if collection.handle == 'membership-options' %}
   {% section 'header-image-background-hh' %}
+{% endif %}  
+{% if collection.handle == 'merchandise' %}
+  {% section 'header-image-background-merch' %}
 {% endif %}
 {% section 'collection-template' %}

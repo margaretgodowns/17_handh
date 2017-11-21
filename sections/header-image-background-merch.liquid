@@ -1,24 +1,23 @@
-<div class="header-image-background" style="background-image: url({{ section.settings.collection-header-image-merchandise | img_url: '2000', crop: 'top' }})">
+<div class="header-image-background" style="background-image: url({{ section.settings.collection-header-image-merch | img_url: '2000', crop: 'top' }})">
   <div class="wrapper">
-    <h1>{{ section.settings.collection-header-title-merchandise }}</h1>
+    <h1>{{ section.settings.collection-header-title-merch }}</h1>
   </div>
 </div>  
 
   {% schema %}
   {
-    "name": "Collection Header Merchandise",
+    "name": "Collection Header Merch",
     "settings": [
       {
       	"type": "image_picker",
-        "id": "collection-header-image-merchandise",
+        "id": "collection-header-image-merch",
         "label": "Collection Header Image"
       },
       {
         "type": "text",
-        "id": "collection-header-title-merchandise",
+        "id": "collection-header-title-merch",
         "label": "Collection Header Title"
       }
     ]
   }
 {% endschema %}
-

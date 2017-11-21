@@ -98,7 +98,7 @@ sections/header-image-background-bbs.liquid:
 sections/header-image-background-hh.liquid:
   development: 2017-11-18T15:59:06-05:00   e350c3da3afa2074a29134c664904376
 sections/header-image-background-merch.liquid:
-  development: 2017-11-20T20:13:30-05:00
+  development: 2017-11-20T21:29:03-05:00   cd2bb3b0df2db3a50faba7d78701a6b4
 sections/header.liquid:
   development: 2017-11-13T18:18:46-05:00   e304ae9d89b466ee72d4a2087597f834
 sections/image-row.liquid:
@@ -176,7 +176,7 @@ templates/cart.liquid:
 templates/collection.image.liquid:
   development: 2017-10-24T18:20:40-04:00   cd9a9b1849d65ca4311d6f793008812f
 templates/collection.liquid:
-  development: 2017-11-18T15:54:48-05:00   c00bf769b16d67065d42bf7f5488eaa8
+  development: 2017-11-20T21:30:01-05:00   a84a56fb08b22a97f7454f04085be69b
 templates/customers/account.liquid:
   development: 2017-10-24T18:20:40-04:00   6169bc13701d2a2f4cbe9735b86ab10c
 templates/customers/activate_account.liquid:
