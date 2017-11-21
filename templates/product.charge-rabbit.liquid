@@ -13,7 +13,7 @@
           <option value="{{ variant.id }}">{% unless variant.title == 'Default Title' %}{{ variant.title }} - {% endunless %}{{ variant.metafields.charge_rabbit.amount | money }}/{{ variant.metafields.charge_rabbit.interval }}</option>
         {% endfor %}
       </select>
-      <input type="submit" value="Join Now"/>
+      <input class="btn" type="submit" value="Join Now"/>
       <p>{{ product.description }}</p>
       <hr class="hr">
     </div>
