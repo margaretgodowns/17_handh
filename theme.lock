@@ -36,7 +36,7 @@ assets/row_image_1.png:
 assets/theme.js.liquid:
   development: 2017-11-19T17:18:52-05:00   8f6301e777258869942fc0496dcb4de5
 assets/theme.scss.liquid:
-  development: 2017-11-20T20:47:13-05:00   41e44e5e02e93290e3afbea7541687ed
+  development: 2017-11-20T20:51:36-05:00   f08ec2dcb20a1657cd143b17940c77d2
 assets/timber.scss.liquid:
   development: 2017-10-24T18:20:38-04:00   0e193a26c1c1d44e7e2205c6c1e51ee2
 config/settings_data.json:
