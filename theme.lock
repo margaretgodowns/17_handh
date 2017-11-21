@@ -36,7 +36,7 @@ assets/row_image_1.png:
 assets/theme.js.liquid:
   development: 2017-11-19T17:18:52-05:00   8f6301e777258869942fc0496dcb4de5
 assets/theme.scss.liquid:
-  development: 2017-11-20T19:26:21-05:00   9ed1340a29b196262d098363670c3c75
+  development: 2017-11-20T20:44:17-05:00   53d13de40b9e9892bf14e00c7c32f8b8
 assets/timber.scss.liquid:
   development: 2017-10-24T18:20:38-04:00   0e193a26c1c1d44e7e2205c6c1e51ee2
 config/settings_data.json:
@@ -97,6 +97,8 @@ sections/header-image-background-bbs.liquid:
   development: 2017-11-18T15:58:22-05:00   5000b19423d29855e2af53d16a62a6a6
 sections/header-image-background-hh.liquid:
   development: 2017-11-18T15:59:06-05:00   e350c3da3afa2074a29134c664904376
+sections/header-image-background-merch.liquid:
+  development: 2017-11-20T20:13:30-05:00
 sections/header.liquid:
   development: 2017-11-13T18:18:46-05:00   e304ae9d89b466ee72d4a2087597f834
 sections/image-row.liquid:
@@ -116,7 +118,7 @@ sections/product-template.liquid:
 sections/slideshow.liquid:
   development: 2017-10-24T18:20:36-04:00   51365f23e85456a41f9c809352c917a5
 snippets/ajax-cart-template.liquid:
-  development: 2017-10-24T18:20:39-04:00   a12ad20ccc9ef7b2516fe7941c51dba8
+  development: 2017-11-20T20:07:54-05:00   b1eeb377c3570c788acf8cf47c664f5c
 snippets/bgset.liquid:
   development: 2017-10-24T18:20:39-04:00   33148dfd129ac7339b20fa9792a6bf85
 snippets/charge-rabbit.no-membership.liquid:
@@ -170,7 +172,7 @@ templates/article.liquid:
 templates/blog.liquid:
   development: 2017-10-24T18:20:40-04:00   61610ee5c1452e884bc13688553d2a32
 templates/cart.liquid:
-  development: 2017-10-24T18:20:40-04:00   efcf7593a46e6f95cc2ccf55356e5784
+  development: 2017-11-20T20:06:16-05:00   efcf7593a46e6f95cc2ccf55356e5784
 templates/collection.image.liquid:
   development: 2017-10-24T18:20:40-04:00   cd9a9b1849d65ca4311d6f793008812f
 templates/collection.liquid:
@@ -206,7 +208,7 @@ templates/page.liquid:
 templates/password.liquid:
   development: 2017-10-24T18:20:40-04:00   27c20529a5fa11780bc067f4f5c7cc9d
 templates/product.charge-rabbit.liquid:
-  development: 2017-10-25T08:31:59-04:00   1950736fc7286e121bf70c6f23f8edfd
+  development: 2017-11-20T20:40:26-05:00   6147c3faa0e5bc79b04055d782b005fa
 templates/product.liquid:
   development: 2017-10-24T18:20:40-04:00   0333f9f54411b4b9b90936d11d7c167e
 templates/search.liquid:
