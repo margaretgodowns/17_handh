@@ -101,9 +101,9 @@
             <h2 class="product-single__vendor" itemprop="brand">{{ product.vendor }}</h2>
           {% endif %}
 
-          <h1 class="product-single__title" itemprop="name">{{ product.title }}</h1>
+          <h1 class="product-single__title text-left" itemprop="name">{{ product.title }}</h1>
 
-          <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+          <div class="text-left" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
             {% comment %}
               Optionally show the 'compare at' or original price of the product.
             {% endcomment %}
@@ -128,8 +128,6 @@
               content="{{ current_variant.price | divided_by: 100.00 }}">
               {{ current_variant.price | money }}
             </span>
-
-            <hr class="hr--small">
 
             <meta itemprop="priceCurrency" content="{{ shop.currency }}">
             <link itemprop="availability" href="http://schema.org/{% if product.available %}InStock{% else %}OutOfStock{% endif %}">
@@ -195,7 +193,6 @@
 
               {% if section.settings.quantity_enabled %}
               <div class="product-single__quantity">
-                <label for="Quantity" class="product-single__quantity-label js-quantity-selector">{{ 'products.product.quantity' | t }}</label>
                 <input type="number" hidden="hidden" id="Quantity" name="quantity" value="1" min="1" class="js-quantity-selector">
               </div>
               {% endif %}
@@ -215,6 +212,8 @@
 
           </div>
 
+          <hr class="hr">
+
           <div class="product-single__description rte" itemprop="description">
             {{ product.description }}
           </div>
@@ -222,13 +221,15 @@
           {% if section.settings.social_sharing_products %}
             {% include 'social-sharing', share_title: product.title, share_permalink: product.url, share_image: product %}
           {% endif %}
+
+          <hr class="hr">
         </div>
       </div>
     </div>
 
     {% if collection %}
       <hr class="hr--clear">
-      <div class="text-center">
+      <div class="text-center return-to-collection">
         <a href="{{ collection.url }}" class="return-link">&larr; {{ 'products.general.collection_return' | t: collection: collection.title }}</a>
       </div>
     {% endif %}

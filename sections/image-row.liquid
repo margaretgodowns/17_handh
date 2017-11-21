@@ -1,0 +1,37 @@
+<div class="image-row">
+    <div class="grid-uniform">
+        {% assign grid_item_width = 'medium--one-third large--one-third' %}
+        <div class="grid__item {{ grid_item_width }}">
+            <img src="{{ section.settings.about-image-one | img_url: '2000', crop: 'top' }}">
+        </div>
+        <div class="grid__item {{ grid_item_width }}">
+            <img src="{{ section.settings.about-image-two | img_url: '2000', crop: 'top' }}">
+        </div>
+        <div class="grid__item {{ grid_item_width }}">
+            <img src="{{ section.settings.about-image-three | img_url: '2000', crop: 'top' }}">
+        </div>
+    </div>
+</div>
+
+{% schema %}
+  {
+    "name": "About Image Row",
+    "settings": [
+      {
+      	"type": "image_picker",
+        "id": "about-image-one",
+        "label": "Image One"
+      }, 
+      {
+      	"type": "image_picker",
+        "id": "about-image-two",
+        "label": "Image Two"
+      }, 
+      {
+      	"type": "image_picker",
+        "id": "about-image-three",
+        "label": "Image Three"
+      }
+    ]
+  }
+{% endschema %}

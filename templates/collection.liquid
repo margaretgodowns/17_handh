@@ -3,5 +3,14 @@
   The contents of the collection.liquid template can be found in /sections/collection-template.liquid
 {% endcomment %}
  
-{% section 'header-image-background' %}
+
+{% if collection.handle == 'blender-bombs' %}
+  {% section 'header-image-background-bbs' %}
+{% endif %}  
+{% if collection.handle == 'membership-options' %}
+  {% section 'header-image-background-hh' %}
+{% endif %}  
+{% if collection.handle == 'merchandise' %}
+  {% section 'header-image-background-merch' %}
+{% endif %}
 {% section 'collection-template' %}

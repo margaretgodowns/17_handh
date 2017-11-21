@@ -1,0 +1,70 @@
+<div data-section-id="{{ section.id }}" data-section-type="featured-content-section">
+  <div class="rich-text wrapper">
+    <div class="grid">
+      <div class="grid__item {% unless section.settings.about_page_full_width %} large--two-thirds medium--two-thirds push--large--one-sixth push--medium--one-sixth{% endunless %}">
+        {% if section.settings.about_section_title != blank %}
+          <div class="section-header">
+            <h2 class="text-center rich-text__heading--{{ section.settings.about_text_size }} section-header__title h1">{{ section.settings.about_section_title | escape }}</h2>
+          </div>
+        {% endif %}
+        {% if section.settings.about_text != blank %}
+          <div class="rte text-left rich-text__text--{{ section.settings.about_text_size }}">
+            {{ section.settings.about_text }}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Rich text",
+    "class": "index-section rich-text-section",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "about_page_full_width",
+        "label": "Wide display"
+      },
+      {
+        "type": "text",
+        "id": "about_section_title",
+        "label": "Heading",
+        "default": "Talk about your brand"
+      },
+      {
+        "type": "richtext",
+        "id": "about_text",
+        "label": "Text",
+        "default": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+      },
+      {
+        "type": "select",
+        "id": "about_text_size",
+        "label": "Size",
+        "default": "medium",
+        "options": [
+          {
+            "label": "Small",
+            "value": "small"
+          },
+          {
+            "label": "Medium",
+            "value": "medium"
+          },
+          {
+            "label": "Large",
+            "value": "large"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Rich text",
+        "category": "Text"
+      }
+    ]
+  }
+{% endschema %}

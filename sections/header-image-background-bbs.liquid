@@ -1,0 +1,24 @@
+<div class="header-image-background" style="background-image: url({{ section.settings.collection-header-image-bbs | img_url: '2000', crop: 'top' }})">
+  <div class="wrapper">
+    <h1>{{ section.settings.collection-header-title-bbs }}</h1>
+  </div>
+</div>  
+
+  {% schema %}
+  {
+    "name": "Collection Header BBs",
+    "settings": [
+      {
+      	"type": "image_picker",
+        "id": "collection-header-image-bbs",
+        "label": "Collection Header Image"
+      },
+      {
+        "type": "text",
+        "id": "collection-header-title-bbs",
+        "label": "Collection Header Title"
+      }
+    ]
+  }
+{% endschema %}
+

@@ -1,0 +1,15 @@
+<div class="header-image-background two-one" style="background-image: url({{ section.settings.header-image-background-about | img_url: '2000', crop: 'top' }})">
+</div>  
+
+  {% schema %}
+  {
+    "name": "Collection Header HH",
+    "settings": [
+      {
+      	"type": "image_picker",
+        "id": "header-image-background-about",
+        "label": "Collection Header Image"
+      }
+    ]
+  }
+{% endschema %}

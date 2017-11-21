@@ -48,9 +48,16 @@
         {% else %}
           {% include 'image-style' with image: product.featured_image, small_style: true, width: width, height: height, wrapper_id: img_wrapper_id, img_id_class: img_id_class %}
           <div id="{{ img_wrapper_id }}" class="product--wrapper">
-            <div style="padding-top:{{ 1 | divided_by: product.featured_image.aspect_ratio | times: 100 }}%;">
-              <img class="product--image lazyload {{ img_id_class }}"
-                   src="{{ product.featured_image | img_url: '150x150' }}"
+            <div class="reveal" style="padding-top:{{ 1 | divided_by: product.featured_image.aspect_ratio | times: 100 }}%;">
+              <img class="product--image product--image__initial {{ img_id_class }}"
+                   src="{{ product.featured_image | img_url: '370x370' }}"
+                   data-src="{{ img_url }}"
+                   data-widths="[180, 370, 590, 740, 900, 1080, 1296, 1512, 1728, 2048]"
+                   data-aspectratio="{{ product.featured_image.aspect_ratio }}"
+                   data-sizes="auto"
+                   alt="{{ product.featured_image.alt | escape }}">
+              <img class="product--image hidden {{ img_id_class }}"
+                   src="{{ product.images[1].src | img_url: '370x370' }}"
                    data-src="{{ img_url }}"
                    data-widths="[180, 370, 590, 740, 900, 1080, 1296, 1512, 1728, 2048]"
                    data-aspectratio="{{ product.featured_image.aspect_ratio }}"
