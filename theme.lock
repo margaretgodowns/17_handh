@@ -36,7 +36,7 @@ assets/row_image_1.png:
 assets/theme.js.liquid:
   development: 2017-11-19T17:18:52-05:00   8f6301e777258869942fc0496dcb4de5
 assets/theme.scss.liquid:
-  development: 2017-11-19T17:47:28-05:00   5e455e1b24f03d830813549704adbef2
+  development: 2017-11-20T19:26:21-05:00   9ed1340a29b196262d098363670c3c75
 assets/timber.scss.liquid:
   development: 2017-10-24T18:20:38-04:00   0e193a26c1c1d44e7e2205c6c1e51ee2
 config/settings_data.json:
@@ -112,7 +112,7 @@ sections/password-content.liquid:
 sections/password-header.liquid:
   development: 2017-10-24T18:20:36-04:00   5a5416be7d0234eb7a193645a5232357
 sections/product-template.liquid:
-  development: 2017-11-19T17:06:16-05:00   95c4d19d728640510133400f8d92ae87
+  development: 2017-11-20T18:57:47-05:00   4c819e7036f88eabf0715aac76f891fe
 sections/slideshow.liquid:
   development: 2017-10-24T18:20:36-04:00   51365f23e85456a41f9c809352c917a5
 snippets/ajax-cart-template.liquid:
@@ -158,7 +158,7 @@ snippets/search-bar.liquid:
 snippets/social-meta-tags.liquid:
   development: 2017-10-24T18:20:40-04:00   0a012eb5113b6a710e09fe77babe8030
 snippets/social-sharing.liquid:
-  development: 2017-10-24T18:20:40-04:00   6ce37d7f2814a10ed9b36ea3be691b65
+  development: 2017-11-20T19:00:41-05:00   da569c9c775c167c21e9bb99376524c3
 snippets/svg-definitions.liquid:
   development: 2017-10-24T18:20:40-04:00   fe4fbc64d534e355fd8653de4ebac79a
 snippets/tags-article.liquid:

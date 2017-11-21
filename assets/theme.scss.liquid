@@ -4275,6 +4275,8 @@ $awpMinerva: "minerva-modern", sans-serif;
 .site-footer {
   padding: 15px 0;
   background-image: url(footer-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   .site-nav__link {
     padding: 15px 15px 0 15px;
     color: #000000;
@@ -4535,4 +4537,100 @@ $awpMinerva: "minerva-modern", sans-serif;
 .product-single__photos .slick-dots li button:before {
   background-color: transparent;
   border: 2px solid #fff;
+}
+
+.product-single__quantity,
+.product-single__add-to-cart {
+  display: inline;
+  padding-right: 5px;;
+}
+
+.js-qty input[type="text"], .ajaxcart__qty input[type="text"] {
+  font-family: "Roboto","HelveticaNeue","Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  font-size: 0.76471em;
+}
+
+.product-single__form {
+  padding-top: 20px;
+}
+
+.product-single__meta hr {
+  width: 100%;
+  border-width: 2px 0 0 0;
+}
+
+.product-single__title,
+.product-single__price,
+.product-sing__add-to-cart,
+.product-single__quantity {
+  font-family: $awpMinerva;
+}
+
+.social-sharing,{
+  font-family: $awpProxima;
+  font-size: 21px;
+}
+
+.social-sharing.clean a span {
+  font-size: 16px;
+}
+
+.return-to-collection {
+  font-family: $awpProxima;
+  padding: 10px;
+}
+
+.product-single__title {
+  margin-bottom: 0;
+  font-weight: 500;
+  color: $awpTeal;
+}
+
+.product-single__price,
+.product-single__quantity,
+.product-single__description {
+  color: $awpDarkGray;
+}
+
+.product-single__add-to-cart {
+  .btn, .btn--secondary {
+    background-color: #fff;
+    border: 2px solid $awpTeal;
+    color: $awpTeal;
+    &:hover {
+      background-color: $awpTeal;
+      color: #fff;
+    }
+  }
+}
+
+.js-qty__adjust .icon {
+  color: $awpTeal;
+}
+
+.js-qty__adjust:hover {
+  background-color: $awpTeal;
+  .icon {
+    color: #fff;
+  }
+}
+
+.js-qty__num {
+   background-color: #fff;
+   border: 2px solid $awpTeal;
+}
+
+.js-qty__adjust--minus, 
+.js-qty__adjust--plus {
+  border-color: lighten($awpTeal, 20%);
+}
+
+.js-qty input[type="text"], 
+.ajaxcart__qty input[type="text"] {
+  background-color: #fff !important;
 }
