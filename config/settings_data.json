@@ -103,8 +103,8 @@
       "drawer-menu": {
         "type": "drawer-menu",
         "settings": {
-          "drawer_top_link_list": "main-menu",
-          "drawer_bottom_link_list": "footer",
+          "drawer_top_link_list": "awp-header-menu",
+          "drawer_bottom_link_list": "",
           "drawer_search_enable": false
         }
       },
@@ -174,7 +174,7 @@
           "title": "HEALTH FOR LIFE",
           "text": "<p>SICK OF TRENDY DIETS AND READY TO MAKE A LIFESTYLE CHANGE? JOIN H+H HANDBOOK PROGRAM. This journey will not overwhelm you, it will empower and educate you TO BE YOUR BEST SELF.<\/p>",
           "button_label": "The H+H Handbook",
-          "button_link": "shopify:\/\/collections\/all"
+          "button_link": "shopify:\/\/collections\/membership-options"
         }
       },
       "1510017761550": {

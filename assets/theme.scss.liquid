@@ -4142,6 +4142,40 @@ $awpMinerva: "minerva-modern", sans-serif;
   }
 }
 
+select {
+  
+    /* styling */
+    display: inline-block;
+    font: inherit;
+    line-height: 1.5em;
+    padding: 0.5em 3.5em 0.5em 1em;
+  
+    /* reset */
+  
+    margin: 0;      
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+select.classic {
+  background-image:
+    linear-gradient(45deg, transparent 50%, #fff 50%),
+    linear-gradient(135deg, #fff 50%, transparent 50%),
+    linear-gradient(to right, $awpBlue, $awpBlue);
+  background-position:
+    calc(100% - 20px) calc(1em + 10px),
+    calc(100% - 15px) calc(1em + 10px),
+    100% 0;
+  background-size:
+    5px 5px,
+    5px 5px,
+    2.5em 3.5em;
+  background-repeat: no-repeat;
+}
+  
 .main-content {
   padding: 0;
 }
@@ -4527,7 +4561,6 @@ $awpMinerva: "minerva-modern", sans-serif;
     text-transform: uppercase;
     background-color: $awpLightBlue;
     color: #fff;
-<<<<<<< HEAD
   }
   
   .btn {
@@ -4545,28 +4578,13 @@ $awpMinerva: "minerva-modern", sans-serif;
   .form-wrapper {
     padding: 15px;
   }
-=======
-  }
-  
-  .btn {
-    width: 100%;
-    background-color: #fff;
-    color: $awpBlue;
-  }
-
-  .contact-left-image {
-    @include at-query($max, $medium) {
-      display: none;
-    }
-  }
-
-  .form-wrapper {
-    padding: 15px;
-  }
->>>>>>> 8417d23edf48292205afd3b5bab9474324c22af8
 }
 
 // PRODUCT
+.template-product .page-container main {
+  background-color: $awpBlue;
+}
+
 .product-single__photos .slick-dots {
   background-color: transparent;
   bottom: 20px;
@@ -4605,6 +4623,7 @@ $awpMinerva: "minerva-modern", sans-serif;
 .product-single__meta hr {
   width: 100%;
   border-width: 2px 0 0 0;
+  border-color: #fff;
 }
 
 .product-single__title,
@@ -4614,7 +4633,8 @@ $awpMinerva: "minerva-modern", sans-serif;
   font-family: $awpMinerva;
 }
 
-.social-sharing,{
+.social-sharing {
+  color: #fff;
   font-family: $awpProxima;
   font-size: 21px;
 }
@@ -4623,37 +4643,48 @@ $awpMinerva: "minerva-modern", sans-serif;
   font-size: 16px;
 }
 
+.social-sharing.clean a {
+  background-color: $awpBlue;
+}
+
+.social-sharing .icon:before {
+  color: #fff;
+}
+
 .return-to-collection {
   font-family: $awpProxima;
-  padding: 10px;
+  padding: 20px;
+  a {
+    color: #fff;
+  }
 }
 
 .product-single__title {
   margin-bottom: 0;
   font-weight: 500;
-  color: $awpTeal;
+  color: #fff;
 }
 
 .product-single__price,
 .product-single__quantity,
 .product-single__description {
-  color: $awpDarkGray;
+  color: #fff;
 }
 
 .product-single__add-to-cart {
   .btn, .btn--secondary {
-    background-color: #fff;
-    border-color: $awpTeal;
-    color: $awpTeal;
+    background-color: $awpBlue;
+    border-color: #fff;
+    color: #fff;
     &:hover {
-      background-color: $awpTeal;
-      color: #fff;
+      background-color: #fff;
+      color: $awpBlue;
     }
   }
 }
 
 .js-qty__adjust .icon {
-  color: $awpTeal;
+  color: #fff;
 }
 
 .js-qty__adjust:hover {
@@ -4665,17 +4696,18 @@ $awpMinerva: "minerva-modern", sans-serif;
 
 .js-qty__num {
    background-color: #fff;
-   border: 1px solid $awpTeal;
+   border: 1px solid #fff;
+   color: #fff;
 }
 
 .js-qty__adjust--minus, 
 .js-qty__adjust--plus {
-  border-color: lighten($awpTeal, 20%);
+  border-color: #fff;
 }
 
 .js-qty input[type="text"], 
 .ajaxcart__qty input[type="text"] {
-  background-color: #fff !important;
+  background-color: $awpBlue;
 }
 
 // Cart + Mobile Nav
@@ -4705,7 +4737,6 @@ $awpMinerva: "minerva-modern", sans-serif;
 // Charge Rabbit
 .charge-rabbit-title {
   font-family: $awpMinerva;
-  color: $awpTeal;
 }
 
 .charge-rabbit-product p {
@@ -4720,20 +4751,20 @@ $awpMinerva: "minerva-modern", sans-serif;
 .charge-rabbit-product select,
 .charge-rabbit-product .btn {
   width: 100%;
-  background-color: #fff;
-  border-color: $awpTeal;
+  background-color: $awpBlue;
+  border-color: #fff;
   padding: 15px;
   text-transform: uppercase;
   font-family: $awpProxima;
-  color: $awpTeal;
+  color: #fff;
 }
 
 .charge-rabbit-product .btn {
   border-width: 2px;
   font-size: .8em;
   &:hover {
-    background-color: $awpTeal;
-    color: #fff;
+    background-color: #fff;
+    color: $awpBlue;
   }
 }
 
