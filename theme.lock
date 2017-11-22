@@ -36,7 +36,7 @@ assets/row_image_1.png:
 assets/theme.js.liquid:
   development: 2017-11-19T17:18:52-05:00   8f6301e777258869942fc0496dcb4de5
 assets/theme.scss.liquid:
-  development: 2017-11-22T10:57:06-05:00   f8e86463856bdc494292e330847d8a4c
+  development: 2017-11-22T11:08:04-05:00   e4afad9b94380ea16eb7364300636a02
 assets/timber.scss.liquid:
   development: 2017-10-24T18:20:38-04:00   0e193a26c1c1d44e7e2205c6c1e51ee2
 config/settings_data.json:
@@ -172,7 +172,7 @@ templates/article.liquid:
 templates/blog.liquid:
   development: 2017-10-24T18:20:40-04:00   61610ee5c1452e884bc13688553d2a32
 templates/cart.liquid:
-  development: 2017-11-20T20:06:16-05:00   efcf7593a46e6f95cc2ccf55356e5784
+  development: 2017-11-22T11:06:34-05:00   2128b7af554bc47d1a59bb32ac130cb1
 templates/collection.image.liquid:
   development: 2017-10-24T18:20:40-04:00   cd9a9b1849d65ca4311d6f793008812f
 templates/collection.liquid:

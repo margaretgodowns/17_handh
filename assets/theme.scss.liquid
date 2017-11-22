@@ -4094,6 +4094,10 @@ $awpMinerva: "minerva-modern", sans-serif;
 }
 
 /*BONES*/
+.rte a, .text-link {
+  color: $awpTeal;
+}
+
 body, input, textarea, button, select {
   font-family: $awpProxima;
 }
@@ -4118,6 +4122,7 @@ hr {
   background-color: #fff;
   border-color: $awpBlue;
   color: $awpBlue;
+  margin-left: 0;
   &:hover {
     background-color: $awpBlue;
     color: #fff;
@@ -4719,6 +4724,10 @@ select.classic {
   color: #fff;
 }
 
+.cart__row .js-qty__adjust .icon {
+  color: $awpBlue;
+}
+
 .js-qty__adjust:hover {
   background-color: $awpTeal;
   .icon {
@@ -4732,14 +4741,30 @@ select.classic {
    color: #fff;
 }
 
+.cart__row .js-qty__num {
+  background-color: #fff;
+  border: 1px solid $awpBlue;
+  color: $awpBlue;
+}
+
 .js-qty__adjust--minus, 
 .js-qty__adjust--plus {
   border-color: #fff;
 }
 
+.cart__row .js-qty__adjust--minus, 
+.cart__row .js-qty__adjust--plus {
+  border-color: $awpBlue;
+}
+
 .js-qty input[type="text"], 
 .ajaxcart__qty input[type="text"] {
   background-color: $awpBlue;
+}
+
+.cart__row .js-qty input[type="text"],
+.car__row .ajaxcart__qty input[type="text"] {
+  background-color: #fff;
 }
 
 // Cart + Mobile Nav
