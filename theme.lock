@@ -36,11 +36,11 @@ assets/row_image_1.png:
 assets/theme.js.liquid:
   development: 2017-11-19T17:18:52-05:00   8f6301e777258869942fc0496dcb4de5
 assets/theme.scss.liquid:
-  development: 2017-11-21T19:57:55-05:00   23d35d28cccc5f4ad3856494c26b0fdf
+  development: 2017-11-22T10:57:06-05:00   f8e86463856bdc494292e330847d8a4c
 assets/timber.scss.liquid:
   development: 2017-10-24T18:20:38-04:00   0e193a26c1c1d44e7e2205c6c1e51ee2
 config/settings_data.json:
-  development: 2017-11-21T15:43:28-05:00   312df08d64a998347b7e2d6e5fc579a0
+  development: 2017-11-22T09:33:57-05:00   95a16ae223bd8029d2750eddaa3e61a2
 config/settings_schema.json:
   development: 2017-10-24T18:20:38-04:00   0ce96641039702636ecc5c55f715d31d
 layout/password.liquid:
@@ -152,7 +152,7 @@ snippets/pagination.liquid:
 snippets/product-grid-collage.liquid:
   development: 2017-10-24T18:20:39-04:00   4abdc9f608a23b5c0ab9d2581e08a060
 snippets/product-grid-item.liquid:
-  development: 2017-11-18T13:48:41-05:00   c3a9d2dbac7936db0a381049ce52779f
+  development: 2017-11-22T10:28:10-05:00   13e4f6a98c4773ca319b44dcfb825ae9
 snippets/respond.liquid:
   development: 2017-10-24T18:20:39-04:00   ca6abf0635dc2ad8c6bd377f83c79f6b
 snippets/search-bar.liquid:
@@ -182,13 +182,13 @@ templates/customers/account.liquid:
 templates/customers/activate_account.liquid:
   development: 2017-10-24T18:20:41-04:00   a569b8be750f47edddc82ffc62b847ac
 templates/customers/addresses.liquid:
-  development: 2017-10-24T18:20:41-04:00   839b36f77b40b0fa025bb6655f1ff583
+  development: 2017-11-22T10:58:42-05:00   e901345b4652637a46e84e78a37ff776
 templates/customers/login.liquid:
-  development: 2017-10-24T18:20:41-04:00   5fea701d036da687b6b1f1e28babb7bc
+  development: 2017-11-22T10:50:50-05:00   e739524acdefbd9d2dfa05a952a7ac1f
 templates/customers/order.liquid:
   development: 2017-10-24T18:20:41-04:00   b836ee1cb4045e777025f75abf719574
 templates/customers/register.liquid:
-  development: 2017-10-24T18:20:41-04:00   3205d912f62cb0f866d974d5f2e22b37
+  development: 2017-11-22T10:52:05-05:00   728fcd424f11cb5cb3270e3aab4d3791
 templates/customers/reset_password.liquid:
   development: 2017-10-24T18:20:41-04:00   bd78871a9d2e373575659c6f9f68aa9b
 templates/gift_card.liquid:

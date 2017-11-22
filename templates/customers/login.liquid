@@ -32,7 +32,7 @@
         {% endif %}
 
         <p>
-          <input type="submit" class="btn btn--full" value="{{ 'customer.login.sign_in' | t }}">
+          <input type="submit" class="btn btn--full btn--account" value="{{ 'customer.login.sign_in' | t }}">
         </p>
         <p>{{ 'layout.customer.create_account' | t | customer_register_link }}</p>
         <p><a href="{{ shop.url }}">{{ 'customer.login.cancel' | t }}</a></p>
@@ -68,7 +68,7 @@
           <input type="email" value="" name="email" id="RecoverEmail" class="input-full" placeholder="{{ 'customer.recover_password.email' | t }}" autocorrect="off" autocapitalize="off">
 
           <p>
-            <input type="submit" class="btn btn--full" value="{{ 'customer.recover_password.submit' | t }}">
+            <input type="submit" class="btn btn--full btn--account" value="{{ 'customer.recover_password.submit' | t }}">
           </p>
           <button type="button" id="HideRecoverPasswordLink">{{ 'customer.recover_password.cancel' | t }}</button>
         {% endform %}
@@ -87,7 +87,7 @@
       <hr class="hr--small">
 
       {% form 'guest_login' %}
-        <input type="submit" class="btn" value="{{ 'customer.login.guest_continue' | t }}">
+        <input type="submit" class="btn btn--account" value="{{ 'customer.login.guest_continue' | t }}">
       {% endform %}
     {% endif %}
 

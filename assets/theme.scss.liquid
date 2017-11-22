@@ -3272,11 +3272,6 @@ button.mfp-arrow {
 
 }
 
-.grid-product__on-sale {
-  color: $colorSaleTag;
-  border: 1px solid $colorSaleTag;
-}
-
 /*================ Product Carousel ================*/
 
 .product-single__photos {
@@ -4099,11 +4094,38 @@ $awpMinerva: "minerva-modern", sans-serif;
 }
 
 /*BONES*/
+body, input, textarea, button, select {
+  font-family: $awpProxima;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  font-family: $awpMinerva;
+  color: $awpBlue;
+}
+
+hr {
+  color: $awpTeal;
+}
 
 // buttons
 .section-header h1 {
   font-family: $awpMinerva;
   color: $awpDarkGray;
+}
+
+.btn.btn--account,
+.btn.shopify-challenge__button {
+  background-color: #fff;
+  border-color: $awpBlue;
+  color: $awpBlue;
+  &:hover {
+    background-color: $awpBlue;
+    color: #fff;
+  }
+}
+
+.btn.btn--account {
+  width: 100%;
 }
 
 .btn,
@@ -4505,11 +4527,11 @@ select.classic {
 }
 
 #shopify-section-about-featured-content {
-  background-color: $awpLightPink;
-  color: $awpDarkGray;
+  background-color: $awpTeal;
+  color: #fff;
   text-transform: none;
   h2 {
-    color: $awpDarkGray;
+    color: #fff;
     line-height: 3;
     text-transform: uppercase;
     &:before {
@@ -4518,7 +4540,7 @@ select.classic {
     &:after {
       display: block;
       content: "";
-      border-top: 4px solid $awpDarkGray;
+      border-top: 4px solid #fff;
       width: 75px;
       max-width: 100%;
       margin: 0 auto;
@@ -4636,6 +4658,11 @@ select.classic {
 .product-sing__add-to-cart,
 .product-single__quantity {
   font-family: $awpMinerva;
+}
+
+.grid-product__on-sale {
+  color: $awpPink;
+  border: 1px solid $awpPink;
 }
 
 .social-sharing {
@@ -4793,4 +4820,11 @@ select.classic {
 // News
 .article {
   padding: 40px 0;
+}
+
+// Account
+#customer_login,
+#create_customer,
+.shopify-challenge__container {
+  padding: 20% 0;
 }
