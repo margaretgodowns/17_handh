@@ -4128,6 +4128,7 @@ $awpMinerva: "minerva-modern", sans-serif;
 
   &:hover {
     @include transition(background-color 0.15s ease-out);
+    color: $awpDarkGray;
   }
 
   &:active {
@@ -4252,7 +4253,6 @@ select.classic {
 
   &:hover {
     background-color: #fff;
-    color: $awpBlue;
   }
 
   &:active {
@@ -4732,6 +4732,18 @@ select.classic {
 .drawer__header,
 .mobile-nav__item:after {
   border-color: #fff;
+}
+
+.ajaxcart__footer {
+  .btn--secondary {
+    background-color: $awpDarkGray;
+    color: #fff;
+    border-color: #fff;
+    &:hover {
+      background-color: #fff;
+      color: $awpDarkGray
+    }
+  }
 }
 
 // Charge Rabbit

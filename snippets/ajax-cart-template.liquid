@@ -17,7 +17,7 @@
               <div class="grid__item one-quarter">
                 <a href="{{url}}" class="ajaxcart__product-image"><img src="{{img}}" alt="{{name}}"></a>
               </div>
-              <div class="grid__item three-quarters">
+              <div class="grid__item three-quarters text-right">
                 <div class="ajaxcart__product-name--wrapper">
                   <a href="{{url}}" class="ajaxcart__product-name">{{{name}}}</a>
                   {{#if variation}}
@@ -33,7 +33,8 @@
                 </div>
 
                 <div class="grid--full display-table">
-                  <div class="grid__item display-table-cell one-half text-right">
+                  <div class="grid__item display-table-cell one-half"></div>
+                  <div class="grid__item display-table-cell one-half">
                     {{#if discountsApplied}}
                       <small class="ajaxcart__price--strikethrough">{{{price}}}</small>
                       <span class="ajaxcart__price">

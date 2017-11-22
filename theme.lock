@@ -36,7 +36,7 @@ assets/row_image_1.png:
 assets/theme.js.liquid:
   development: 2017-11-19T17:18:52-05:00   8f6301e777258869942fc0496dcb4de5
 assets/theme.scss.liquid:
-  development: 2017-11-21T19:10:24-05:00   d81b2f6ac7fe27105880210629fafbc1
+  development: 2017-11-21T19:36:26-05:00   3ec7c13cd2c703e3fd796fca44eb4948
 assets/timber.scss.liquid:
   development: 2017-10-24T18:20:38-04:00   0e193a26c1c1d44e7e2205c6c1e51ee2
 config/settings_data.json:
@@ -118,7 +118,7 @@ sections/product-template.liquid:
 sections/slideshow.liquid:
   development: 2017-10-24T18:20:36-04:00   51365f23e85456a41f9c809352c917a5
 snippets/ajax-cart-template.liquid:
-  development: 2017-11-20T20:07:54-05:00   b1eeb377c3570c788acf8cf47c664f5c
+  development: 2017-11-21T19:41:17-05:00   63ec1c85a600d7b4098ac7b1d21a21d5
 snippets/bgset.liquid:
   development: 2017-10-24T18:20:39-04:00   33148dfd129ac7339b20fa9792a6bf85
 snippets/charge-rabbit.no-membership.liquid:
