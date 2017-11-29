@@ -36,17 +36,17 @@ assets/row_image_1.png:
 assets/theme.js.liquid:
   development: 2017-11-19T17:18:52-05:00   8f6301e777258869942fc0496dcb4de5
 assets/theme.scss.liquid:
-  development: 2017-11-22T11:08:04-05:00   e4afad9b94380ea16eb7364300636a02
+  development: 2017-11-27T18:25:17-05:00   feb02c7748271c17078707f98402258a
 assets/timber.scss.liquid:
   development: 2017-10-24T18:20:38-04:00   0e193a26c1c1d44e7e2205c6c1e51ee2
 config/settings_data.json:
-  development: 2017-11-22T09:33:57-05:00   95a16ae223bd8029d2750eddaa3e61a2
+  development: 2017-11-23T11:39:56-05:00   80aa1b86344f5994f2f3abf207eb8054
 config/settings_schema.json:
   development: 2017-10-24T18:20:38-04:00   0ce96641039702636ecc5c55f715d31d
 layout/password.liquid:
   development: 2017-10-24T18:20:39-04:00   9b89c14723c926030fcbfc57bb72fc52
 layout/theme.liquid:
-  development: 2017-11-21T19:48:41-05:00   3dec1d95484f6d6b27d342713a5219c3
+  development: 2017-11-29T18:23:47-05:00   3dec1d95484f6d6b27d342713a5219c3
 locales/de.json:
   development: 2017-10-24T18:20:41-04:00   0f341ef7af2a070a1164765daf4c9387
 locales/en.default.json:
@@ -114,7 +114,7 @@ sections/password-content.liquid:
 sections/password-header.liquid:
   development: 2017-10-24T18:20:36-04:00   5a5416be7d0234eb7a193645a5232357
 sections/product-template.liquid:
-  development: 2017-11-20T18:57:47-05:00   4c819e7036f88eabf0715aac76f891fe
+  development: 2017-11-29T18:31:28-05:00   4c819e7036f88eabf0715aac76f891fe
 sections/slideshow.liquid:
   development: 2017-10-24T18:20:36-04:00   51365f23e85456a41f9c809352c917a5
 snippets/ajax-cart-template.liquid:
@@ -152,7 +152,7 @@ snippets/pagination.liquid:
 snippets/product-grid-collage.liquid:
   development: 2017-10-24T18:20:39-04:00   4abdc9f608a23b5c0ab9d2581e08a060
 snippets/product-grid-item.liquid:
-  development: 2017-11-22T10:28:10-05:00   13e4f6a98c4773ca319b44dcfb825ae9
+  development: 2017-11-27T18:44:57-05:00   8657848d9b1f57540ae6f63cbfe76ca1
 snippets/respond.liquid:
   development: 2017-10-24T18:20:39-04:00   ca6abf0635dc2ad8c6bd377f83c79f6b
 snippets/search-bar.liquid:
@@ -208,7 +208,7 @@ templates/page.liquid:
 templates/password.liquid:
   development: 2017-10-24T18:20:40-04:00   27c20529a5fa11780bc067f4f5c7cc9d
 templates/product.charge-rabbit.liquid:
-  development: 2017-11-21T18:51:55-05:00   bdc9b83ac03f0953df97bc6dc60bf3af
+  development: 2017-11-22T15:41:38-05:00   6ee30d3bd883913e61bd9bcd296203e6
 templates/product.liquid:
   development: 2017-10-24T18:20:40-04:00   0333f9f54411b4b9b90936d11d7c167e
 templates/search.liquid:

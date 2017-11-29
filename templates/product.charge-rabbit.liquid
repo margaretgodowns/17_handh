@@ -1,6 +1,6 @@
 <form action="{{ product.metafields.charge_rabbit.subscribe_path }}" method="get" class="charge-rabbit-product">
   <div class="grid">
-    <div class="grid__item large--seven-twelfths medium--seven-twelfths text-center">
+    <div class="grid__item large--seven-twelfths medium--seven-twelfths text-center charge-rabbit-image-wrapper">
       {% if product.featured_image %}
         <img src="{{ product.featured_image.src | product_img_url: 'grande' }}" alt="{{ product.featured_image.alt | escape }}" />
       {% endif %} 

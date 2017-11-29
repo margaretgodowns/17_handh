@@ -48,7 +48,7 @@
         {% else %}
           {% include 'image-style' with image: product.featured_image, small_style: true, width: width, height: height, wrapper_id: img_wrapper_id, img_id_class: img_id_class %}
           <div id="{{ img_wrapper_id }}" class="product--wrapper">
-             {% if product.type != 'TYOH' %}
+             {% if product.type != 'TYOH' and product.type != 'merchandise' %}
               <div class="reveal" style="padding-top:{{ 1 | divided_by: product.featured_image.aspect_ratio | times: 100 }}%;">
               <img class="product--image product--image__initial {{ img_id_class }}"
                    src="{{ product.featured_image | img_url: '370x370' }}"
@@ -78,7 +78,7 @@
             {% endif %}
           </div>
           <div class="grid-product__meta">
-            <span class="grid-product__title">{{ product.title }}}</span>
+            <span class="grid-product__title">{{ product.title }}</span>
             <span class="grid-product__price-wrap">
               <br/>
               <span class="grid-product__price">
