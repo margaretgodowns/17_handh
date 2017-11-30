@@ -46,7 +46,7 @@ config/settings_schema.json:
 layout/password.liquid:
   development: 2017-10-24T18:20:39-04:00   9b89c14723c926030fcbfc57bb72fc52
 layout/theme.liquid:
-  development: 2017-11-29T18:23:47-05:00   3dec1d95484f6d6b27d342713a5219c3
+  development: 2017-11-29T19:22:31-05:00   a632379ed2d9c181c3231c708eadbbe1
 locales/de.json:
   development: 2017-10-24T18:20:41-04:00   0f341ef7af2a070a1164765daf4c9387
 locales/en.default.json:
@@ -93,6 +93,8 @@ sections/footer.liquid:
   development: 2017-11-13T20:58:53-05:00   a3eb813a6a9b7883ad152b0eb00554f4
 sections/header-image-background-about.liquid:
   development: 2017-11-18T18:01:46-05:00   0793bccc682e02583fdc51702a85e763
+sections/header-image-background-amazon.liquid:
+  development: 2017-11-29T19:28:48-05:00   9ede2ddea2ef21682b600bcca1ee5895
 sections/header-image-background-bbs.liquid:
   development: 2017-11-18T15:58:22-05:00   5000b19423d29855e2af53d16a62a6a6
 sections/header-image-background-hh.liquid:
@@ -199,6 +201,8 @@ templates/list-collections.liquid:
   development: 2017-10-24T18:20:40-04:00   eabed71f62563b929b8da83a4aeacbfb
 templates/page.about.liquid:
   development: 2017-11-18T18:22:46-05:00   d5b9c3066542e738e19dbe3c1928d67a
+templates/page.amazon.liquid:
+  development: 2017-11-29T19:23:31-05:00   93ef59283b230230d30f358780d9a2a6
 templates/page.contact.liquid:
   development: 2017-11-19T15:50:06-05:00   1b9dad17529c07a0d52da8fb588370c7
 templates/page.full-width.liquid:
